@@ -4,8 +4,6 @@
 
 This extension enables you to use Grok custom system prompts to create your own custom assistant
 
-Feel free to fork for a more domain specific assistant
-
 ## Install
 
 - Open **Ulauncher**
@@ -13,3 +11,9 @@ Feel free to fork for a more domain specific assistant
 - Click on the **EXTENSIONS** tab
 - Click on **Add extension**
 - Paste this repository's URL
+
+## Install manually from source
+
+The extensions' directory is located at: $HOME/.local/share/ulauncher/extensions
+
+Go to that location, and while being inside, just git clone this repository.
