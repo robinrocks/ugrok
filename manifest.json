@@ -1,6 +1,31 @@
 {
     "required_api_version": "v1",
     "name": "Grok",
+    "description": "Interact with xAI's Grok API to generate text responses",
+    "developer_name": "robinrocks",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.5
+    },
+    "preferences": [
+        {
+            "id": "gr_kw",
+            "type": "keyword",
+            "name": "Grok",
+            "default_value": "gr"
+        },
+        {
+            "id": "api_key",
+            "type": "input",
+            "name": "Grok API Key",
+            "description": "Obtain your API key from https://console.x.ai",
+            "default_value": ""
+        },
+        {
+            "id": "model",
+            "type": "input",{
+    "required_api_version": "v1",
+    "name": "Grok",
     "description": "Create a domain specific assistant using Grok-3",
     "developer_name": "robinrocks",
     "icon": "images/icon.png",
@@ -75,6 +100,61 @@
             "type": "input",
             "name": "Presence Penalty",
             "description": "Prevents topic repetition (0-2)",
+            "default_value": "0.0"
+        }
+    ]
+}
+            "name": "Grok Model",
+            "description": "Specify the Grok model (e.g., grok-beta). See https://x.ai/api for available models.",
+            "default_value": "grok-beta"
+        },
+        {
+            "id": "line_wrap",
+            "type": "input",
+            "name": "Line Length",
+            "description": "Maximum characters per line for response text (e.g., 80).",
+            "default_value": "80"
+        },
+        {
+            "id": "system_prompt",
+            "type": "input",
+            "name": "System Prompt",
+            "description": "Optional context for Grok (e.g., 'You are Grok, created by xAI.').",
+            "default_value": "You are Grok, created by xAI. Provide concise and accurate responses."
+        },
+        {
+            "id": "temperature",
+            "type": "input",
+            "name": "Temperature",
+            "description": "Controls randomness: 0.0 (predictable) to 2.0 (random).",
+            "default_value": "0.7"
+        },
+        {
+            "id": "max_tokens",
+            "type": "input",
+            "name": "Max Tokens",
+            "description": "Maximum tokens to generate (1-4096, depending on model).",
+            "default_value": "100"
+        },
+        {
+            "id": "top_p",
+            "type": "input",
+            "name": "Top P",
+            "description": "Controls diversity via nucleus sampling (0.0-1.0).",
+            "default_value": "1.0"
+        },
+        {
+            "id": "frequency_penalty",
+            "type": "input",
+            "name": "Frequency Penalty",
+            "description": "Reduces word repetition (0.0-2.0).",
+            "default_value": "0.0"
+        },
+        {
+            "id": "presence_penalty",
+            "type": "input",
+            "name": "Presence Penalty",
+            "description": "Encourages new topics (0.0-2.0).",
             "default_value": "0.0"
         }
     ]
