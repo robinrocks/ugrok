@@ -1,10 +1,8 @@
-# [ULauncher](https://ulauncher.io/) Chat GPT Extension
+# [ULauncher](https://ulauncher.io/) Grok Extension
 
-> Disclaimer: Not affiliated with OpenAI
+> Disclaimer: Not affiliated with xAi, totally ripped off from seofernando25
 
-This extension enables you to use ChatGPT custom system prompts to create your own custom assistant
-
-![Screen shot](images/screenshot.png)
+This extension enables you to use Grok custom system prompts to create your own custom assistant
 
 Feel free to fork for a more domain specific assistant
 
