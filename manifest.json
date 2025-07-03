@@ -26,7 +26,7 @@
             "type": "input",
             "name": "xAI chat completion model",
             "description": "For model names see https://docs.x.ai/docs/models",
-            "default_value": "grok-3"
+            "default_value": "grok-3-latest"
         },
         {
             "id": "line_wrap",
