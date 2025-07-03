@@ -27,14 +27,14 @@ def wrap_text(text, max_w):
     return '\n'.join(lines)
 
 
-class GPTExtension(Extension):
+class GrokExtension(Extension):
     """
-    Ulauncher extension to generate text using GPT-3
+    Ulauncher extension to generate text using Grok-3
     """
 
     def __init__(self):
-        super(GPTExtension, self).__init__()
-        logger.info('GPT-3 extension started')
+        super(GrokExtension, self).__init__()
+        logger.info('Grok-3 extension started')
         self.subscribe(KeywordQueryEvent, KeywordQueryEventListener())
 
 
@@ -180,4 +180,4 @@ class KeywordQueryEventListener(EventListener):
 
 
 if __name__ == '__main__':
-    GPTExtension().run()
+    GrokExtension().run()
