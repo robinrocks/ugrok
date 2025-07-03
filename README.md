@@ -14,6 +14,6 @@ This extension enables you to use Grok custom system prompts to create your own 
 
 ## Install manually from source
 
-The extensions' directory is located at: $HOME/.local/share/ulauncher/extensions
+The extensions directory is located at: $HOME/.local/share/ulauncher/extensions
 
-Go to that location, and while being inside, just git clone this repository.
+Go to that location, and while being inside, git clone this repository.
