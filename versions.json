@@ -1,4 +1,6 @@
 [
-  { "required_api_version": "1", "commit": "<branch name with the pre-migration code>" },
-  { "required_api_version": "2", "commit": "<branch name with python3 code>" }
-]
+    {
+      "required_api_version": "^2.0.0",
+      "commit": "master"
+    }
+  ]
