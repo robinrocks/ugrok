@@ -39,8 +39,8 @@
             "id": "system_prompt",
             "type": "input",
             "name": "System Prompt",
-            "description": "Optional context for Grok (e.g., 'You are Grok, created by xAI.').",
-            "default_value": "You are Grok, created by xAI. Provide concise and accurate responses."
+            "description": "Optional context for Grok",
+            "default_value": "Provide concise and accurate responses. Convert natural language instructions into Linux commands. You have been programmed to understand a wide set of commands Linux related commands. You should only answer with the best and most relevant linux command, no descriptions or context, just return the command, do not use 'new lines'"
         },
         {
             "id": "temperature",
