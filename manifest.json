@@ -25,8 +25,8 @@
             "id": "model",
             "type": "input",
             "name": "Grok Model",
-            "description": "Specify the Grok model (e.g., grok-3-beta). See https://x.ai/api for available models.",
-            "default_value": "grok-3-beta"
+            "description": "Specify the Grok model (e.g., grok-beta). See https://x.ai/api for available models.",
+            "default_value": "grok-beta"
         },
         {
             "id": "line_wrap",
