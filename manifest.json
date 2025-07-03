@@ -1,7 +1,7 @@
 {
-    "required_api_version": "^2.0.0",
-    "name": "ChatGPT",
-    "description": "Create a domain specific assistant using GPT-3.5",
+    "required_api_version": "v1",
+    "name": "Grok",
+    "description": "Create a domain specific assistant using Grok-3",
     "developer_name": "SeoFernando",
     "icon": "images/icon.png",
     "options": {
@@ -9,24 +9,24 @@
     },
     "preferences": [
         {
-            "id": "gpt_kw",
+            "id": "gr_kw",
             "type": "keyword",
-            "name": "GPT",
-            "default_value": "gpt"
+            "name": "Grok",
+            "default_value": "gr"
         },
         {
             "id": "api_key",
             "type": "input",
-            "name": "OpenAI API Key",
-            "description": "You can get one at https://platform.openai.com/account/api-keys",
+            "name": "Grok API Key",
+            "description": "You can get one at https://x.ai/api",
             "default_value": ""
         },
         {
             "id": "model",
             "type": "input",
-            "name": "OpenAI chat completion model",
-            "description": "For model names see https://platform.openai.com/docs/guides/chat",
-            "default_value": "gpt-3.5-turbo"
+            "name": "xAI chat completion model",
+            "description": "For model names see https://docs.x.ai/docs/models",
+            "default_value": "grok-3"
         },
         {
             "id": "line_wrap",
