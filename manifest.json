@@ -1,23 +1,23 @@
 {
     "required_api_version": "^2.0.0",
-    "name": "Grok",
-    "description": "Create a domain specific assistant using Grok-3",
-    "developer_name": "robinrocks",
+    "name": "ChatGPT",
+    "description": "Create a domain specific assistant using GPT-3.5",
+    "developer_name": "SeoFernando",
     "icon": "images/icon.png",
     "options": {
         "query_debounce": 2
     },
     "preferences": [
         {
-            "id": "gr_kw",
+            "id": "gpt_kw",
             "type": "keyword",
-            "name": "GR",
-            "default_value": "gr"
+            "name": "GPT",
+            "default_value": "gpt"
         },
         {
             "id": "api_key",
             "type": "input",
-            "name": "Grok API Key",
+            "name": "OpenAI API Key",
             "description": "You can get one at https://platform.openai.com/account/api-keys",
             "default_value": ""
         },
