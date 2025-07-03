@@ -54,7 +54,7 @@ class KeywordQueryEventListener(EventListener):
             top_p = float(extension.preferences.get('top_p', 1.0))
             system_prompt = extension.preferences.get('system_prompt', 'You are Grok, created by xAI.')
             line_wrap = int(extension.preferences.get('line_wrap', 80))
-            model = extension.preferences.get('model', 'grok-beta')  # Default to grok-beta
+            model = extension.preferences.get('model', 'grok-3-beta')  # Default to grok-beta
         except Exception as err:
             logger.error('Failed to parse preferences: %s', str(err))
             return RenderResultListAction([
